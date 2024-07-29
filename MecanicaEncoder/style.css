@@ -183,6 +183,7 @@ img {
 .card__article {
   position: relative;
   overflow: hidden;
+  display: flex;
 }
 
 .card__img {
