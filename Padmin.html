@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Administración</title>
+    <link rel="stylesheet" href="StylePadmin.css">
+</head>
+<body>
+
+    <header>
+        <input type ="checkbox" name ="" id ="chk1">
+        <img src="img/logo.png" alt="Bootstrap" width="100" height="80">
+           
+            <ul>
+                <li><a href="#">Informe</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Cotización</a></li>
+                <li><a href="#">Stock</a></li>
+                <li><a href="#">Cliente</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Administración</a></li>
+                
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                      
+                </li>
+            </ul>
+            <div class="menu">
+                <label for="chk1">
+                    <i class="fa fa-bars"></i>
+                </label>
+            </div>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h1>Panel de Administración</h1>
+        <div class="buttons">
+            <button onclick="mostrarFormulario('agregar')">Agregar Mecánico</button>
+            <button onclick="mostrarFormulario('editar')">Editar Mecánico</button>
+            <button onclick="mostrarFormulario('eliminar')">Eliminar Mecánico</button>
+        </div>
+        <div class="form-container" id="form-container">
+            <form id="agregar-form" class="hidden">
+                <h2>Agregar Mecánico</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="dias">Días de Trabajo:</label>
+                <input type="text" id="dias" name="dias" placeholder="Ej. Lunes, Miércoles, Viernes">
+                <label for="horas">Horas de Trabajo:</label>
+                <input type="text" id="horas" name="horas" placeholder="Ej. 9:00 - 17:00">
+                <button type="submit">Agregar</button>
+            </form>
+            <form id="editar-form" class="hidden">
+                <h2>Editar Mecánico</h2>
+                <label for="id-editar">ID Mecánico:</label>
+                <input type="text" id="id-editar" name="id-editar">
+                <label for="nuevo-nombre">Nuevo Nombre:</label>
+                <input type="text" id="nuevo-nombre" name="nuevo-nombre">
+                <label for="nuevos-dias">Nuevos Días de Trabajo:</label>
+                <input type="text" id="nuevos-dias" name="nuevos-dias">
+                <label for="nuevas-horas">Nuevas Horas de Trabajo:</label>
+                <input type="text" id="nuevas-horas" name="nuevas-horas">
+                <button type="submit">Editar</button>
+            </form>
+            <form id="eliminar-form" class="hidden">
+                <h2>Eliminar Mecánico</h2>
+                <label for="id-eliminar">ID Mecánico:</label>
+                <input type="text" id="id-eliminar" name="id-eliminar">
+                <button type="submit">Eliminar</button>
+            </form>
+        </div>
+    </div>
+    <script src="visual.js"></script>
+</body>
+</html>
