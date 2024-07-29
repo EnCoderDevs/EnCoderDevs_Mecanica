@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Probando</h1>
+        <br>
+        {% for empleado in empleados %}
+
+            {{empleado.rut}}, {{empleado.primer_nombre}}, {{empleado.segundo_nombre}}, {{empleado.apellido_paterno}}, {{empleado.apellido_materno}}, {{empleado.fecha_nacimiento}}, {{empleado.id_genero}}, {{empleado.telefono}}, {{empleado.email}}, {{empleado.region}}, {{empleado.ciudad}}, {{empleado.direccion}} <br>
+
+        {% endfor %}    
+</body>
+</html>
