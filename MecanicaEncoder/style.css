@@ -397,3 +397,187 @@ img {
         padding: 35px 0px;
     }
 }
+
+
+
+.contenedor_contacto {
+  top: 200px;
+  position: relative;
+  height: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 44px;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 32%; /* Ajustado para tres columnas */
+  min-width: 200px;
+}
+
+.campo label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.campo input,
+.campo textarea {
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.campo input:focus,
+.campo textarea:focus {
+  border-bottom: 2px solid #000;
+}
+
+button {
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+
+.contenedor_vehiculo {
+  top: 200px;
+  position: relative;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 44px;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.grupo-inputs-vehiculo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.campo-vehiculo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 32%; /* Ajustado para tres columnas */
+  min-width: 200px;
+}
+
+.campo-vehiculo label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.campo-vehiculo input,
+.campo-vehiculo textarea {
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.campo-vehiculo input:focus,
+.campo-vehiculo textarea:focus {
+  border-bottom: 2px solid #000;
+}
+
+.campo-mensaje-vehiculo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+  min-width: 200px;
+}
+
+.campo-mensaje-vehiculo label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+.campo-mensaje-vehiculo textarea {
+  padding: 12px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  resize: none;
+  height: 120px;
+  margin: 0 auto; 
+  display: block; 
+  text-align: left;
+}
+
+button {
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #333;
+}
