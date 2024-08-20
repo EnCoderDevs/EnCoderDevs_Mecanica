@@ -100,6 +100,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL = 'mecanica.Usuario_Empleado'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
